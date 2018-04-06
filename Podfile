@@ -6,7 +6,7 @@ target 'SnapKit' do
   use_frameworks!
 
   # Pods for SnapKit
-	pod ‘SnapKit’, ‘~> 0.15.0’
+	pod 'SnapKit', '~> 4.0.0'
 
   target 'SnapKitUITests' do
     inherit! :search_paths

@@ -28,14 +28,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0FF75BA02076DC1F00AB3A45 /* SnapKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FF75BA02076DC1F00AB3A45 /* Snap-Kit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Snap-Kit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FF75BA32076DC1F00AB3A45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0FF75BA52076DC1F00AB3A45 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0FF75BA82076DC1F00AB3A45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0FF75BAA2076DC2100AB3A45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0FF75BAD2076DC2100AB3A45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0FF75BAF2076DC2100AB3A45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0FF75BB42076DC2100AB3A45 /* SnapKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FF75BB42076DC2100AB3A45 /* Snap-KitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Snap-KitUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FF75BB82076DC2100AB3A45 /* SnapKitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapKitUITests.swift; sourceTree = "<group>"; };
 		0FF75BBA2076DC2100AB3A45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		48A07DA7F4A38B6DFEA7FBBD /* Pods-SnapKitUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapKitUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SnapKitUITests/Pods-SnapKitUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -80,8 +80,8 @@
 		0FF75BA12076DC1F00AB3A45 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0FF75BA02076DC1F00AB3A45 /* SnapKit.app */,
-				0FF75BB42076DC2100AB3A45 /* SnapKitUITests.xctest */,
+				0FF75BA02076DC1F00AB3A45 /* Snap-Kit.app */,
+				0FF75BB42076DC2100AB3A45 /* Snap-KitUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -131,9 +131,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0FF75B9F2076DC1F00AB3A45 /* SnapKit */ = {
+		0FF75B9F2076DC1F00AB3A45 /* Snap-Kit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0FF75BBD2076DC2100AB3A45 /* Build configuration list for PBXNativeTarget "SnapKit" */;
+			buildConfigurationList = 0FF75BBD2076DC2100AB3A45 /* Build configuration list for PBXNativeTarget "Snap-Kit" */;
 			buildPhases = (
 				00BE5BF6162C571B958C88F6 /* [CP] Check Pods Manifest.lock */,
 				0FF75B9C2076DC1F00AB3A45 /* Sources */,
@@ -145,14 +145,14 @@
 			);
 			dependencies = (
 			);
-			name = SnapKit;
+			name = "Snap-Kit";
 			productName = SnapKit;
-			productReference = 0FF75BA02076DC1F00AB3A45 /* SnapKit.app */;
+			productReference = 0FF75BA02076DC1F00AB3A45 /* Snap-Kit.app */;
 			productType = "com.apple.product-type.application";
 		};
-		0FF75BB32076DC2100AB3A45 /* SnapKitUITests */ = {
+		0FF75BB32076DC2100AB3A45 /* Snap-KitUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0FF75BC02076DC2100AB3A45 /* Build configuration list for PBXNativeTarget "SnapKitUITests" */;
+			buildConfigurationList = 0FF75BC02076DC2100AB3A45 /* Build configuration list for PBXNativeTarget "Snap-KitUITests" */;
 			buildPhases = (
 				B74736D5B230F3D565D2E2C8 /* [CP] Check Pods Manifest.lock */,
 				0FF75BB02076DC2100AB3A45 /* Sources */,
@@ -164,9 +164,9 @@
 			dependencies = (
 				0FF75BB62076DC2100AB3A45 /* PBXTargetDependency */,
 			);
-			name = SnapKitUITests;
+			name = "Snap-KitUITests";
 			productName = SnapKitUITests;
-			productReference = 0FF75BB42076DC2100AB3A45 /* SnapKitUITests.xctest */;
+			productReference = 0FF75BB42076DC2100AB3A45 /* Snap-KitUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -188,7 +188,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0FF75B9B2076DC1F00AB3A45 /* Build configuration list for PBXProject "SnapKit" */;
+			buildConfigurationList = 0FF75B9B2076DC1F00AB3A45 /* Build configuration list for PBXProject "Snap-Kit" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -201,8 +201,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0FF75B9F2076DC1F00AB3A45 /* SnapKit */,
-				0FF75BB32076DC2100AB3A45 /* SnapKitUITests */,
+				0FF75B9F2076DC1F00AB3A45 /* Snap-Kit */,
+				0FF75BB32076DC2100AB3A45 /* Snap-KitUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -307,7 +307,7 @@
 /* Begin PBXTargetDependency section */
 		0FF75BB62076DC2100AB3A45 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0FF75B9F2076DC1F00AB3A45 /* SnapKit */;
+			target = 0FF75B9F2076DC1F00AB3A45 /* Snap-Kit */;
 			targetProxy = 0FF75BB52076DC2100AB3A45 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -454,8 +454,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3DRS89P7R7;
 				INFOPLIST_FILE = SnapKit/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.nishant.SnapKit;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nishant.Snap-Kit";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -470,8 +473,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3DRS89P7R7;
 				INFOPLIST_FILE = SnapKit/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.nishant.SnapKit;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nishant.Snap-Kit";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -486,7 +492,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3DRS89P7R7;
 				INFOPLIST_FILE = SnapKitUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.nishant.SnapKitUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -503,7 +513,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3DRS89P7R7;
 				INFOPLIST_FILE = SnapKitUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.nishant.SnapKitUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -515,7 +529,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0FF75B9B2076DC1F00AB3A45 /* Build configuration list for PBXProject "SnapKit" */ = {
+		0FF75B9B2076DC1F00AB3A45 /* Build configuration list for PBXProject "Snap-Kit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0FF75BBB2076DC2100AB3A45 /* Debug */,
@@ -524,7 +538,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0FF75BBD2076DC2100AB3A45 /* Build configuration list for PBXNativeTarget "SnapKit" */ = {
+		0FF75BBD2076DC2100AB3A45 /* Build configuration list for PBXNativeTarget "Snap-Kit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0FF75BBE2076DC2100AB3A45 /* Debug */,
@@ -533,7 +547,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0FF75BC02076DC2100AB3A45 /* Build configuration list for PBXNativeTarget "SnapKitUITests" */ = {
+		0FF75BC02076DC2100AB3A45 /* Build configuration list for PBXNativeTarget "Snap-KitUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0FF75BC12076DC2100AB3A45 /* Debug */,
